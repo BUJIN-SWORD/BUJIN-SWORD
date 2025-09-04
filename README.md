@@ -1,16 +1,34 @@
-## Hi there 👋
+**软件工程第一次作业**
+==========
+| 这个作业属于哪个课程 | [https://edu.cnblogs.com/campus/gdgy/Class34Grade23ComputerScience/]() |
+| -----------------  |--------------- |
+| 这个作业要求在哪里  | [https://edu.cnblogs.com/campus/gdgy/Class34Grade23ComputerScience/homework/13478]() | 
+| 这个作业的目标      | <熟悉博客园和github，为后续学习做准备> |
 
-<!--
-**BUJIN-SWORD/BUJIN-SWORD** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**一、基本介绍**
+----------
 
-Here are some ideas to get you started:
+我是23级计科4班的廖鸿基，一名对计算机科学和软件开发充满热情的学生。平时我喜欢探索新技术、写代码、阅读科技类文章，偶尔也会打打游戏、看看电影放松自己。我一直认为，编程不仅仅是一门技术，更是一种创造和表达的方式。
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**二、学习经历**
+----------
+
+1. 掌握C、Python等的基本语法以及开发工具的使用
+2. 掌握《算法与数据分析》《数据结构》里基本的算法以及数据结构
+3. 独立完成几次课程设计
+
+**三、阅读教材后的5问**
+----------
+
+1. 软件工程与编程之间最本质的区别是什么？
+2. 敏捷开发在实际项目中究竟如何落地？
+3. 需求分析阶段如何有效识别和规避“伪需求”？
+4. 在团队协作中，如何平衡代码质量与开发进度？
+5. 软件测试是否真的能“全覆盖”？
+
+**四、渴望得到的收获**
+----------
+1. 系统掌握软件工程的基本流程和方法论，不再只是“写代码”而是“做工程”
+2. 提升团队协作和项目管理能力，学会使用工具如Git、JIRA等进行高效协作
+3. 培养需求分析、系统设计和软件测试的实战能力
+4. 最终能独立完成一个小型软件项目的全流程开发，并形成良好的文档习惯
