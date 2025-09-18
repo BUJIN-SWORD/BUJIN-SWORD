@@ -458,4 +458,3 @@ class TestPlagiarismUtils(unittest.TestCase):
 
 if __name__ == '__main__':
     # 运行所有单元测试（默认按字母顺序执行）
-    unittest.main()
