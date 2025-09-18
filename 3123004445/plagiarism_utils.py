@@ -369,9 +369,8 @@ def calculate_similarity(
         original_str: 原文清洗后的字符串
         plagiarized_str: 抄袭文本清洗后的字符串
 
-    返回:
-        float: 综合相似度得分（0~1之间）
-    """
+
+
 
 
 
