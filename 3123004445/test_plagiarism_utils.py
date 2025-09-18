@@ -456,5 +456,4 @@ class TestPlagiarismUtils(unittest.TestCase):
             validate_file_path(self.temp_file_large, "大文件测试")
 
 
-if __name__ == '__main__':
-    # 运行所有单元测试（默认按字母顺序执行）
+
