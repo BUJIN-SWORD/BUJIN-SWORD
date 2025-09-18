@@ -74,5 +74,4 @@ def get_synonyms(word: str) -> List[str]:
             return synonyms.copy()
     
     # 若未匹配到，返回自身（确保兼容性）
-
-  
+    return [word]
