@@ -377,10 +377,5 @@ def calculate_similarity(
     cos_score = cosine_similarity_score(original_tokens, plagiarized_tokens)
     ed_score = edit_distance_similarity(original_str, plagiarized_str)
 
-    # 打印中间结果
-    print(f"词频匹配得分: {wf_score:.4f}")
-    print(f"余弦相似度得分: {cos_score:.4f}")
-    print(f"编辑距离相似度得分: {ed_score:.4f}")
 
-    # 取三种得分的平均值作为综合结果
-    return (wf_score + cos_score + ed_score) / 3
+
