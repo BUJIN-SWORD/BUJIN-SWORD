@@ -372,10 +372,8 @@ def calculate_similarity(
     返回:
         float: 综合相似度得分（0~1之间）
     """
-    # 计算三种算法的得分
-    wf_score = word_frequency_match(original_tokens, plagiarized_tokens)
-    cos_score = cosine_similarity_score(original_tokens, plagiarized_tokens)
-    ed_score = edit_distance_similarity(original_str, plagiarized_str)
+
+
 
 
 
