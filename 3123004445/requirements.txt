@@ -1,0 +1,10 @@
+# 核心功能依赖：文本处理、相似度计算
+jieba
+numpy
+
+# 性能分析与可视化：SnakeViz用于性能剖析，coverage用于测试覆盖率统计
+snakeviz
+coverage
+
+# 单元测试：unittest为Python内置，显式声明Python版本兼容性（需Python 3.6+）
+unittest; python_version >= "3.6"
