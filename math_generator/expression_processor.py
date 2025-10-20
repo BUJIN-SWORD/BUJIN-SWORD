@@ -112,7 +112,5 @@ def compare_token_lists(list1, list2):
         if t1 < t2:
             return -1
         elif t1 > t2:
-            return 1
+ 
 
-    # 完全相等
-    return 0
