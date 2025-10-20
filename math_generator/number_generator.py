@@ -126,12 +126,8 @@ def fraction_to_number(fraction):
         return integer_part, remainder // gcd_val, denominator // gcd_val
 
 
-def gcd(a, b):
-    """
-    计算两个数的最大公约数
 
-    参数:
-        a, b: 要计算的两个数
+
 
 
 
