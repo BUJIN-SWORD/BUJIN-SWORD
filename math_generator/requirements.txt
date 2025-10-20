@@ -1,0 +1,14 @@
+# python标准库
+argparse(用于解析命令行参数)
+fractions(用于精确的分数计算)
+random(用于生成随机数)
+re(用于正则表达式操作)
+
+# python第三方库
+snakeviz(用于性能剖析)
+
+# 环境要求
+python_version >= "3.0"
+
+# 运行软件
+PyCharm
