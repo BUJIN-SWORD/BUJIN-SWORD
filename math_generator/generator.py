@@ -107,8 +107,17 @@ def generate_problems(num_problems, range_limit):
     answers = []
     generated_expressions = set()
 
+    for _ in range(num_problems):
+        # 最多尝试100次生成不重复的题目
+        for _ in range(100):
+            expr, result = generate_expression(range_limit, 3, generated_expressions)
+            if expr:
+                break
+        else:
+            raise Exception("无法生成足够的不重复题目，请尝试减小题目数量或增大范围")
 
+        problems.append(f"{expr} =")
+        answers.append(ng.number_to_string(result))
 
-
-
+    return problems, answers
 
