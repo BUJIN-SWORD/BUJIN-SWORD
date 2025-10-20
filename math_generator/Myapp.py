@@ -51,10 +51,8 @@ def main():
         grader = MathProblemGrader(args.e, args.a)
         grader.grade()
 
-    # 如果没有提供任何有效参数组合，显示帮助信息
-    if (args.n is None or args.r is None) and (not args.e or not args.a):
-        print("错误: 参数组合无效")
-        parser.print_help()
+
+
 
 
 
