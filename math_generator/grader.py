@@ -125,6 +125,5 @@ class MathProblemGrader:
             f.write(f"Correct: {len(correct)} ({', '.join(map(str, correct))})\n")
             f.write(f"Wrong: {len(wrong)} ({', '.join(map(str, wrong))})\n")
 
-        print(f"评分完成，结果已写入 Grade.txt")
-        print(f"正确: {len(correct)} 题")
-        print(f"错误: {len(wrong)} 题")
+
+
