@@ -120,10 +120,8 @@ class MathProblemGrader:
             else:
                 wrong.append(i + 1)
 
-        # 写入评分结果
-        with open('Grade.txt', 'w', encoding='utf-8') as f:
-            f.write(f"Correct: {len(correct)} ({', '.join(map(str, correct))})\n")
-            f.write(f"Wrong: {len(wrong)} ({', '.join(map(str, wrong))})\n")
+
+
 
 
 
