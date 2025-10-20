@@ -107,7 +107,12 @@ def compare_token_lists(list1, list2):
     elif len(list1) > len(list2):
         return 1
 
+    # 再逐个比较元素
+    for t1, t2 in zip(list1, list2):
+        if t1 < t2:
+            return -1
+        elif t1 > t2:
+            return 1
 
- 
-
-
+    # 完全相等
+    return 0
