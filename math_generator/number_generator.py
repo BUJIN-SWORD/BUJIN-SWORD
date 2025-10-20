@@ -133,9 +133,5 @@ def gcd(a, b):
     参数:
         a, b: 要计算的两个数
 
-    返回:
-        最大公约数
-    """
-    while b:
-        a, b = b, a % b
-    return a
+
+
